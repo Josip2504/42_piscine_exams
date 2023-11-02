@@ -5,19 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jsamardz <jsamardz@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/02 17:31:50 by jsamardz          #+#    #+#             */
-/*   Updated: 2023/11/02 17:37:45 by jsamardz         ###   ########.fr       */
+/*   Created: 2023/11/02 20:30:07 by jsamardz          #+#    #+#             */
+/*   Updated: 2023/11/02 20:40:20 by jsamardz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int main(int ac, char **av)
+int main (int ac, char **av)
 {
-	int i;
+	int	i;
 
 	i = 0;
-	if  (ac == 2)
+	if (ac == 2)
 	{
 		while (av[1][i])
 		{
