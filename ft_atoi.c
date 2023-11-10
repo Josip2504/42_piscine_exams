@@ -6,9 +6,11 @@
 /*   By: jsamardz <jsamardz@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 17:38:02 by jsamardz          #+#    #+#             */
-/*   Updated: 2023/11/07 17:38:05 by jsamardz         ###   ########.fr       */
+/*   Updated: 2023/11/10 08:53:23 by jsamardz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_atoi(const char *str)
 {
@@ -33,4 +35,12 @@ int	ft_atoi(const char *str)
 		i++;
 	}
 	return (s * r);
+}
+
+int main()
+{
+	char *c = "---123d2";
+	int r = ft_atoi(c);
+	printf("%d", r);
+	return (0);
 }
